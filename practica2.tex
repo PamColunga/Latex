@@ -1,0 +1,62 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{slantsc}
+
+\topmargin = -2cm
+\oddsidemargin= 0cm
+\textheight = 23cm
+\textwidth = 17cm
+
+\renewcommand{\shorthandsspanish}{}
+
+\parindent=0mm
+
+\title{Mi primer documento en \LaTeX{}}
+
+\author{Pablo Pérez}
+
+\date{\today{}}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\begin{abstract}
+Ejemplo de documento \LaTeX{} de la clase {\ttfamily article} con una estructura básica. 
+Incluye secciones, subsecciones y una referencia cruzada. También se incluyen varios detalles básicos, el uso de diferentes características de las fuentes, párrafos y listas.
+\end{abstract}
+
+\section{Primera sección}\label{primera}
+
+\LaTeX{} nos permite crear distintas clases de documentos, entre las que se pueden mencionar: book, article, report, letter y presentaciones, entre otras.
+
+Todos ellos tienen diferentes características y formato. Por ejemplo, la clase \textit{"book"} (libro) coloca un estilo diferente a las páginas pares e impares, permite crear documentos divididos en capítulos, introducir diferente  tipo de tablas de contenido, entre otros detalles.
+
+
+
+
+
+En \LaTeX los espacios y saltos de linea no siempre se toman de forma literal.
+Por ejemplo, un espacio        es      equivalente a      dos o más. 
+Un salto de linea es equivalente a un espacio en blanco.
+
+Dos o más saltos de linea son equivalentes a un salto de linea.
+
+Se pueden introducir saltos de linea mediante la expresión $\backslash\backslash$.
+
+Se puede introducir un salto de página mediante el comando $\backslash$newpage o \textbackslash pagebreak.
+
+\section{Caracteres especiales}
+
+\LaTeX hace uso de
